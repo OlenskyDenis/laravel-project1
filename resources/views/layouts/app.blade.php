@@ -16,7 +16,7 @@
     <div class="container">
         @yield('content')
 
-        @include('inc.footer')
+        {{-- @include('inc.footer') --}}
     </div>
 
     @yield('custom-js')
